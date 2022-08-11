@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        
+        th, td {
+
+            padding: 20px; 
+        }
+        .tj{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+   </style>
+
+</head>
+<body>
+<div class="tj">
+    <table>
+        <tr>
+          
+            <td colspan="5" rowspan="5" style="background-color: red;"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="5" rowspan="5" style="background-color: green;"></td>
+            <!-- <td>F6</td>
+            <td>G7</td>
+            <td>H8</td>
+            <td>I9</td>
+            <td>J10</td>
+            <td>K11</td>
+            <!-- <td>L12</td> -->
+            <!-- <td>M13</td>
+            <td>N14</td>
+            <td>O15</td> -->
+        </tr>
+        <tr>
+          
+          <td></td>
+          <td style="background-color: green;"></td>
+          <td style="background-color: green;"></td>
+          <!-- <td>D4</td>
+          <td>E5</td>
+          <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td style="background-color: green;"></td>
+          <td></td>
+          <!-- <td>D4</td>
+          <td>E5</td>
+          <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td style="background-color: green;"></td>
+          <td></td>
+          <!-- <td>D4</td>
+          <td>E5</td>
+          <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td style="background-color: green;"></td>
+          <td></td>
+          <!-- <td>D4</td>
+          <td>E5</td>
+          <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td style="background-color: red;"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: pink;"></td>
+          <td style="background-color: pink;"></td>
+          <td style="background-color: pink;"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <!-- <td>N14</td>
+          <td>O15</td> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td style="background-color: red;"></td>
+          <td style="background-color: red;"></td>
+          <td  style="background-color: red;"></td>
+          <td  style="background-color: red;"></td>
+          <td style="background-color: pink;"></td>
+          <td style="background-color: pink;"></td>
+          <td style="background-color: pink;"></td>
+          <td style="background-color: yellow;"></td>
+          <td style="background-color: yellow;"></td>
+          <td style="background-color: yellow;"></td>
+          <td style="background-color: yellow;"></td>
+          <td></td>
+          <!-- <td>N14</td>
+          <td>O15</td> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: pink;"></td>
+          <td style="background-color: pink;"></td>
+          <td style="background-color: pink;"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: yellow;"></td>
+          <td></td>
+          <!-- <td>N14</td>
+          <td>O15</td> -->
+      </tr>
+      <tr>
+          
+          <td colspan="5" rowspan="5" style="background-color: blue;"></td>
+          <td></td>
+          <td style="background-color: blue;"></td>
+          <td></td>
+          <td colspan="5" rowspan="5" style="background-color: yellow;"></td>
+          <!-- <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</t    d>
+          <td>N14</td>
+          <td>O15</td>
+      </tr> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td style="background-color: blue;"></td>
+          <td></td>
+          <!-- <td>D4</td>
+          <td>E5</td> -->
+          <!-- <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td>
+      </tr> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td style="background-color: blue;"></td>
+          <td></td>
+          <!-- <td>D4</td>
+          <td>E5</td> -->
+          <!-- <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td>
+      </tr> -->
+      </tr>
+      <tr>
+          
+          <td style="background-color: blue;"></td>
+          <td style="background-color: blue;"></td>
+          <td></td>
+          <!-- <td>D4</td>
+          <td>E5</td>
+          <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td>
+      </tr> -->
+      </tr>
+      <tr>
+          
+          <td></td>
+          <td></td>
+          <td></td>
+          <!-- <td>D4</td>
+          <td>E5</td>
+          <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td> -->
+      </tr>
+      <!-- <tr>
+          
+          <td>A1</td>
+          <td>B2</td>
+          <td>C3</td>
+          <td>D4</td>
+          <td>E5</td>
+          <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td>
+      </tr>
+      <tr>
+          
+          <td>A1</td>
+          <td>B2</td>
+          <td>C3</td>
+          <td>D4</td>
+          <td>E5</td>
+          <td>F6</td>
+          <td>G7</td>
+          <td>H8</td>
+          <td>I9</td>
+          <td>J10</td>
+          <td>K11</td>
+          <td>L12</td>
+          <td>M13</td>
+          <td>N14</td>
+          <td>O15</td>
+      </tr> -->
+      
+        
+         </table>
+</div>
+</body>
+</html>
